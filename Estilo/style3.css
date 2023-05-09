@@ -6,7 +6,7 @@
 }
 
 :root {
-    --cor0:linear-gradient(to right, black, transparent);
+    --cor0:linear-gradient(to right, green, yellow, transparent);
 
     --fonte-destaque:'Rubik Mono One', sans-serif;
     --fonte-padrao: arial, verdana,helvetica,sans-serif;
@@ -29,7 +29,7 @@ h1 {
   background-image: var(--cor0);
   font-family: var(--fonte-destaque);
   text-align: center;
-  background-color: yellow;
+  
 
   
 
@@ -39,7 +39,7 @@ h1 {
 
 
 header {
-    background-color: white;
+    background-color: rgba(255, 255, 0, 0.512);
     padding:30px;
     text-align: center;
     margin-top: 10px;
