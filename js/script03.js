@@ -7,17 +7,17 @@ function pesquisar () {
     img.setAttribute('id', 'foto')
     
     switch(recordes) {
-        case '' :
-          res.innerHTML = "<h1> </h1>  "
-          img.setAttribute('src', '')
+        case 'Pentacampeao' :
+          res.innerHTML = "<h1>Único Pentacampeão do Mundo</h1> <p> A Seleção Brasileira é a única Pentacampeã do mundo nos anos de 58, 62, 70, 94, 2002. </p> "
+          img.setAttribute('src', 'imagens/recordes/penta.jpg')
           break;
-        case '' :
-            res.innerHTML = "<h1></h1>  " 
-            img.setAttribute('src', '')
+        case 'TodasAsCopas' :
+            res.innerHTML = "<h1>Esteve em todas as copas..</h1> <p> A seleção Brasileira é a única seleção que esteve em todas as copas do mundo. </p>  " 
+            img.setAttribute('src', 'imagens/recordes/unicaSeleção.webp')
             break;
-        case '' :
-            res.innerHTML = "<h1></h1> " 
-            img.setAttribute('src', '')
+        case 'Bicampeao' :
+            res.innerHTML = "<h1>Único Bicampeão do mundo 58/62</h1> <p> A seleção Brasileira é a única seleção Bicampeã do mundo nos anos de 58 e 62. </p>" 
+            img.setAttribute('src', 'imagens/recordes/bicampeã.webp')
             break;
             
     
@@ -38,4 +38,4 @@ function pesquisar () {
     
     }
 
-    res.style.lineHeight = `30px`
+    
