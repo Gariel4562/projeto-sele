@@ -9,7 +9,7 @@ img.setAttribute('id', 'foto')
 switch(jogadores) {
     case 'Pelé' :
     res.innerHTML = `<h1>Pelé</h1> </br> <p> Pelé fez 77 Gols pela Seleção Brasileira, Conquistou três Copas do Mundo pela Seleção Brasileira: 58, 62, 70 (foi protagonista nas copas de 58 e 70.). </p> `
-        img.setAttribute('src', 'imagens/jogadores/Peleee.jpg')
+        img.setAttribute('src', 'imagens/jogadores/Pelé.webp')
         break;
 
     case 'Garrincha' :
@@ -24,7 +24,7 @@ switch(jogadores) {
 
         case 'Romário' :
                 res.innerHTML = `<h1>Romário</h1> </br> <p> Romário ganhou a Copa de 94 como protagonista da seleção, e ainda conquistou duas Copas Américas e uma Copa das Confederações. Romário fez 55 Gols pela Seleção. </p>  `
-                img.setAttribute('src', 'imagens/jogadores/romário.jpg')
+                img.setAttribute('src', 'imagens/jogadores/Romario.jpg')
                 break;
 
         case 'Rivaldo' :
