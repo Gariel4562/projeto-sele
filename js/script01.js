@@ -9,7 +9,7 @@ img.setAttribute('id', 'foto')
 switch(jogadores) {
     case 'Pelé' :
     res.innerHTML = `<h1>Pelé</h1> </br> <p> Pelé fez 95 Gols pela Seleção Brasileira, Conquistou três Copas do Mundo pela Seleção Brasileira: 58, 62, 70 (foi protagonista nas copas de 58 e 70.). </p> `
-        img.setAttribute('src', 'imagens/jogadores/Pelé.webp')
+        img.setAttribute('src', 'imagens/jogadores/Pelé.jpg')
         break;
 
     case 'Garrincha' :
