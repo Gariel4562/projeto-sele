@@ -12,7 +12,7 @@ function pesquisar () {
         img.setAttribute('src', 'imagens/titulos/copa.jpg')
         break;
         case 'Copa das Confederações' :
-            res.innerHTML = `<br><h1>Confederações</h1></br> <p> Brasil Venceu nos anos: 1997, 2005, 2009, 2013. </p>`
+            res.innerHTML = `<br><h1>Confedera</h1></br> <p> Brasil Venceu nos anos: 1997, 2005, 2009, 2013. </p>`
         img.setAttribute('src', 'imagens/titulos/confedera.jpg')
         break;
         case 'Copa América' :
